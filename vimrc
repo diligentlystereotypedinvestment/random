@@ -91,4 +91,3 @@ au BufRead,BufNewFile *.tex   syntax match StrikeoutMatch /\~\~.*\~\~/
 "hi def  StrikeoutColor   ctermbg=black ctermfg=black    guibg=darkblue guifg=blue
 "hi link StrikeoutMatch StrikeoutColor
 "hi SpellBad ctermbg=52
- 
