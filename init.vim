@@ -15,12 +15,16 @@ endif
 call plug#begin(system('echo -n "${XDG_CONFIG_HOME:-$HOME/.config}/nvim/plugged"'))
 " Plug 'junegunn/goyo.vim'
 Plug 'tpope/vim-surround'
-Plug 'jreybert/vimagit'
+Plug 'uiiaoo/java-syntax.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-commentary'
-Plug 'ap/vim-css-color'
-Plug 'honza/vim-snippets'
+" Plug 'terrortylor/nvim-comment'
+" Plug 'honza/vim-snippets'
+Plug 'subnut/nvim-ghost.nvim', { 'do': ':call nvim_ghost#installer#install()', 'on': 'Sync'}
 "https://www.vim.org/scripts/script.php?script_id=2830
+" Plug 'tpope/vim-endwise'
+Plug 'https://github.com/junegunn/vim-easy-align'
+"https://github.com/Vonr/align.nvim
 
 Plug 'unblevable/quick-scope'
 " Trigger a highlight only when pressing f and F.
@@ -36,8 +40,14 @@ Plug 'lervag/vimtex'
 let g:vimtex_view_method='zathura'
 let g:tex_flavor='latex'
 let g:vimtex_quickfix_mode=0
+" set conceallevel=1
+" let g:tex_conceal='abd'
+
+" Plug 'ms-jpq/coq_nvim'
 call plug#end()
 
+
+autocmd FileType tex hi Conceal ctermbg=NONE
 set hidden
 set title
 set bg=light
@@ -54,7 +64,7 @@ set autoindent
 
 runtime macros/matchit.vim
 command! MakeTags !ctags -R .
-nnoremap <CR> :wa<CR>
+nnoremap <CR> :w<CR>
 nnoremap < V<<ESC>
 nnoremap > V><ESC>
 noremap t o<ESC>k
@@ -151,3 +161,13 @@ nnoremap <leader>h :call ToggleHiddenAll()<CR>
 " So ":vs ;cfz" will expand into ":vs /home/<user>/.config/zsh/.zshrc"
 " if typed fast without the timeout.
 source ~/.config/nvim/shortcuts.vim
+
+" ignore pdfs
+set wildignore+=*.pdf,*.o,*.obj,*.jpg,*.png,*.class
+
+" let java_highlight_functions = 1
+
+hi clear SpellBad
+hi SpellBad cterm=underline
+" Set style for gVim
+hi SpellBad gui=undercurl
