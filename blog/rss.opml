@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.1" xmlns:feeder="https://nononsenseapps.com/feeder">
+  <head>
+    <title>
+      Feeder
+    </title>
+  </head>
+  <body>
+    <outline feeder:notify="false" feeder:imageUrl="https://assets.propublica.org/propublica-rss-logo.png" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="ProPublica" text="ProPublica" type="rss" xmlUrl="https://www.propublica.org/feeds/propublica/main"/>
+    <outline feeder:notify="false" feeder:imageUrl="https://news.nononsenseapps.com/apple-touch-icon.png" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="Feeder News" text="Feeder News" type="rss" xmlUrl="https://news.nononsenseapps.com/index.atom"/>
+    <outline title="Math" text="Math">
+      <outline feeder:notify="false" feeder:imageUrl="https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=96&amp;d=https%3A%2F%2Fs0.wp.com%2Fi%2Fbuttonw-com.png" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="Terry Tao" text="Terry Tao" type="rss" xmlUrl="https://terrytao.wordpress.com/feed/"/>
+      <outline feeder:notify="false" feeder:imageUrl="http://" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="Jeremy Booher&apos;s articles on arXiv" text="Jeremy Booher&apos;s articles on arXiv" type="rss" xmlUrl="https://arxiv.org/a/0000-0003-1245-407X.atom2"/>
+    </outline>
+    <outline title="P" text="P">
+      <outline feeder:notify="false" feeder:imageUrl="https://149909199.v2.pressablecdn.com/wp-content/themes/waitbutwhy/images/favicon.ico" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="Wait But Why" text="Wait But Why" type="rss" xmlUrl="https://waitbutwhy.com/feed"/>
+      <outline feeder:notify="false" feeder:imageUrl="https://news.ycombinator.com/favicon.ico" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="Hacker News" text="Hacker News" type="rss" xmlUrl="http://news.ycombinator.com/rss"/>
+      <outline feeder:notify="false" feeder:imageUrl="https://www.blogger.com/favicon.ico" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="Quantum Void" text="Quantum Void" type="rss" xmlUrl="https://quantum-void.blogspot.com/feeds/posts/default"/>
+      <outline feeder:notify="false" feeder:imageUrl="https://unixsheikh.com/apple-touch-icon.png" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="unixsheikh.com" text="unixsheikh.com" type="rss" xmlUrl="https://unixsheikh.com/feed.rss"/>
+      <outline feeder:notify="false" feeder:imageUrl="https://robertpaulwolff.blogspot.com/favicon.ico" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="The Philosopher&apos;s Stone" text="The Philosopher&apos;s Stone" type="rss" xmlUrl="https://robertpaulwolff.blogspot.com/feeds/posts/default"/>
+      <outline feeder:notify="true" feeder:imageUrl="https://www.mathprograms.org/icons/ams.ico" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="Undergraduate program" text="Undergraduate program" type="rss" xmlUrl="https://www.mathprograms.org/db?joblist-0-2----rss--"/>
+      <outline feeder:notify="true" feeder:imageUrl="https://substackcdn.com/image/fetch/w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F430241cb-ade5-4316-b1c9-6e3fe6e63e5e_256x256.png" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="Astral Codex Ten" text="Astral Codex Ten" type="rss" xmlUrl="https://astralcodexten.substack.com/feed"/>
+      <outline feeder:notify="false" feeder:imageUrl="https://s0.wp.com/i/buttonw-com.png" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="Don&apos;t Worry About the Vase" text="Don&apos;t Worry About the Vase" type="rss" xmlUrl="https://thezvi.wordpress.com/feed/"/>
+      <outline feeder:notify="false" feeder:imageUrl="http://ycombinator.com/arc/arc.png" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="Paul Graham: Essays" text="Paul Graham: Essays" type="rss" xmlUrl="http://www.aaronsw.com/2002/feeds/pgessays.rss"/>
+      <outline feeder:notify="true" feeder:imageUrl="https://scottaaronson.blog/wp-content/uploads/2021/10/cropped-Jacket-32x32.gif" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="Shtetl-Optimized" text="Shtetl-Optimized" type="rss" xmlUrl="https://scottaaronson.blog/?feed=rss2"/>
+      <outline feeder:notify="false" feeder:imageUrl="https://a.fsdn.com/sd/topics/topicslashdot.gif" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="Slashdot" text="Slashdot" type="rss" xmlUrl="https://rss.slashdot.org/Slashdot/slashdotMain"/>
+    </outline>
+    <outline title="Sci" text="Sci">
+      <outline feeder:notify="false" feeder:imageUrl="https://www.nature.com/uploads/product/nature/rss.png" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="Nature" text="Nature" type="rss" xmlUrl="https://www.nature.com/nature/articles.rss"/>
+    </outline>
+    <outline title="Tech" text="Tech">
+      <outline feeder:notify="true" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="Krebs on Security" text="Krebs on Security" type="rss" xmlUrl="https://krebsonsecurity.com/feed/"/>
+      <outline feeder:notify="false" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="tecnologia" text="tecnologia" type="rss" xmlUrl="http://wok.oblomov.eu/tecnologia/index.rss"/>
+    </outline>
+    <outline title="World Events" text="World Events">
+      <outline feeder:notify="false" feeder:imageUrl="https://www.aljazeera.com/images/logo_aje.png" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="Al Jazeera" text="Al Jazeera" type="rss" xmlUrl="https://www.aljazeera.com/xml/rss/all.xml"/>
+      <outline feeder:notify="false" feeder:imageUrl="https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="NYT &gt; Science" text="NYT &gt; Science" type="rss" xmlUrl="https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/section/science/rss.xml"/>
+      <outline feeder:notify="false" feeder:imageUrl="https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="NYT &gt; Climate and Environment" text="NYT &gt; Climate and Environment" type="rss" xmlUrl="https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/section/climate/rss.xml"/>
+      <outline feeder:notify="false" feeder:imageUrl="https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="NYT &gt; U.S. &gt; Politics" text="NYT &gt; U.S. &gt; Politics" type="rss" xmlUrl="https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/section/politics/rss.xml"/>
+      <outline feeder:notify="false" feeder:imageUrl="https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="NYT &gt; World News" text="NYT &gt; World News" type="rss" xmlUrl="https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/section/world/rss.xml"/>
+      <outline feeder:notify="false" feeder:imageUrl="https://media.nbcdfw.com/2019/09/DFW_On_Light@3x.png?fit=411%2C120&amp;quality=85&amp;strip=all" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="Texas News – NBC 5 Dallas-Fort Worth" text="Texas News – NBC 5 Dallas-Fort Worth" type="rss" xmlUrl="https://www.nbcdfw.com/news/local/texas-news/feed/"/>
+      <outline feeder:notify="false" feeder:imageUrl="https://cdn.theatlantic.com/_next/static/images/apple-touch-icon-default-b504d70343a9438df64c32ce339c7ebc.png" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="Best of The Atlantic" text="Best of The Atlantic" type="rss" xmlUrl="https://www.theatlantic.com/feed/best-of/"/>
+      <outline feeder:notify="false" feeder:imageUrl="https://www.snopes.com/apple-touch-icon.png" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="Snopes.com" text="Snopes.com" type="rss" xmlUrl="https://www.snopes.com/feed/"/>
+    </outline>
+    <feeder:settings>
+      <feeder:setting key="pref_sync_only_wifi" value="true"/>
+      <feeder:setting key="pref_show_fab" value="true"/>
+      <feeder:setting key="pref_feed_item_style" value="COMPACT"/>
+      <feeder:setting key="pref_added_feeder_news" value="true"/>
+    </feeder:settings>
+  </body>
+</opml>
