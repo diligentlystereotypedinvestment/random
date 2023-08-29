@@ -27,6 +27,9 @@
     </outline>
     <outline title="Sci" text="Sci">
       <outline feeder:notify="false" feeder:imageUrl="https://www.nature.com/uploads/product/nature/rss.png" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="Nature" text="Nature" type="rss" xmlUrl="https://www.nature.com/nature/articles.rss"/>
+      <outline feeder:notify="false" feeder:imageUrl="https://www.snopes.com/apple-touch-icon.png" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="PNR Journal" text="PNR J" type="rss" xmlUrl="https://www.pnrjournal.com/index.php/home/gateway/plugin/WebFeedGatewayPlugin/rss2"/>
+      
+      <outline feeder:notify="false" feeder:imageUrl="https://www.snopes.com/apple-touch-icon.png" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="JAS NH" text="JAS NH" type="rss" xmlUrl="http://www.jasnh.com/jasnhrss.xml"/>
     </outline>
     <outline title="Tech" text="Tech">
       <outline feeder:notify="true" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="Krebs on Security" text="Krebs on Security" type="rss" xmlUrl="https://krebsonsecurity.com/feed/"/>
