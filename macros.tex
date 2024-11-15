@@ -1,0 +1,86 @@
+\newcommand{\Gr}{\text{Gr}}
+\DeclareMathOperator{\grad}{grad}
+\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\Wedge}{\bigwedge}
+\DeclareMathOperator{\Res}{Res}
+\DeclareMathOperator{\sgn}{sgn}
+\DeclareMathOperator*{\rank}{rank}
+\DeclareMathOperator{\height}{height}
+\DeclareMathOperator{\Ann}{Ann}
+\DeclareMathOperator{\Tor}{Tor}
+\DeclareMathOperator{\Ext}{Ext}
+
+% Number Theory (NT)
+\renewcommand{\char}{\text{char}}
+\DeclareMathOperator{\Gal}{Gal}
+
+% Groups
+\renewcommand{\sl}{\mathfrak{sl}}
+\newcommand{\SU}{\bm{SU}}
+\newcommand{\U}{\text{\textbf{U}}}
+\newcommand{\CPn}{\C P^n}
+\newcommand{\CP}{\C P}
+\newcommand{\RPn}{\R P^n}
+\newcommand{\RP}{\R P}
+\DeclareMathOperator{\Sym}{Sym}
+\newcommand{\Z}{\bm{Z}}
+\newcommand{\A}{\bm{A}}
+\newcommand{\F}{\bm{F}}
+\newcommand{\Q}{\bm{Q}}
+\newcommand{\R}{\bm{R}}
+\newcommand{\C}{\bm{C}}
+\newcommand{\N}{\bm{N}}
+\renewcommand{\P}{\bm{P}}
+\newcommand{\SL}{\text{\textbf{SL}}}
+\newcommand{\GL}{\text{GL}}
+\renewcommand{\S}{\mathbb{S}}
+\DeclareMathOperator{\PGL}{PGL}
+\DeclareMathOperator{\Lie}{Lie}
+
+% Commutative Algebra
+\DeclareMathOperator{\Frac}{Frac}
+
+% Alg Geo (AG)
+\DeclareMathOperator{\codim}{codim}
+\DeclareMathOperator{\Spec}{Spec}
+\DeclareMathOperator{\Specm}{Specm}
+\DeclareMathOperator{\Proj}{Proj}
+\DeclareMathOperator{\Jac}{Jac}
+\DeclareMathOperator{\Prin}{Prin}
+\DeclareMathOperator{\Div}{Div}
+\DeclareMathOperator{\Supp}{Supp}
+\DeclareMathOperator{\res}{res}
+\DeclareMathOperator{\ord}{ord}
+
+% Categories
+\newcommand{\Ring}{\text{\textbf{Ring}}}
+\newcommand{\Sch}{\text{\textbf{Sch}}}
+\newcommand{\Top}{\text{\textbf{Top}}}
+\newcommand{\Var}{\text{\textbf{Var}}}
+
+\makeatletter
+\newcommand{\colim@}[2]{%
+  \vtop{\m@th\ialign{##\cr
+    \hfil$#1\operator@font colim$\hfil\cr
+    \noalign{\nointerlineskip\kern1.5\ex@}#2\cr
+    \noalign{\nointerlineskip\kern-\ex@}\cr}}%
+}
+\newcommand{\colim}{%
+  \mathop{\mathpalette\colim@{\rightarrowfill@\scriptscriptstyle}}\nmlimits@
+}
+\renewcommand{\varprojlim}{%
+  \mathop{\mathpalette\varlim@{\leftarrowfill@\scriptscriptstyle}}\nmlimits@
+}
+\renewcommand{\varinjlim}{%
+  \mathop{\mathpalette\varlim@{\rightarrowfill@\scriptscriptstyle}}\nmlimits@
+}
+\DeclareMathOperator{\End}{End}
+\DeclareMathOperator{\coker}{coker}
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Mor}{Mor}
+\DeclareMathOperator{\Hom}{Hom}
+\DeclareMathOperator{\im}{im}
+\DeclareMathOperator{\id}{id}
+
+% Algebraic Topology AlgTop
+\DeclareMathOperator{\HH}{H}
