@@ -1,0 +1,102 @@
+\let\fullref\autoref
+\def\makeautorefname#1#2{\expandafter\def\csname#1autorefname\endcsname{#2}}
+%
+%  Some standard autorefnames.  If the environment name for an autoref
+%  you need is not listed below, add a similar line to your TeX file:
+%
+%\makeautorefname{equation}{Equation}%
+\def\equationautorefname~#1\null{(#1)\null}
+% \makeautorefname{footnote}{footnote}%
+\makeautorefname{item}{item}%
+\makeautorefname{figure}{Figure}%
+\makeautorefname{table}{Table}%
+\makeautorefname{part}{Part}%
+\makeautorefname{appendix}{Appendix}%
+\makeautorefname{chapter}{Chapter}%
+\makeautorefname{hy}{Hypothesis}%
+\makeautorefname{section}{Section}%
+\makeautorefname{subsection}{Section}%
+\makeautorefname{subsubsection}{Section}%
+\makeautorefname{theorem}{Theorem}%
+\makeautorefname{thm}{Theorem}%
+\makeautorefname{cor}{Corollary}%
+\makeautorefname{lem}{Lemma}%
+\makeautorefname{prop}{Proposition}%
+\makeautorefname{pro}{Property}
+\makeautorefname{conj}{Conjecture}%
+\makeautorefname{defn}{Definition}%
+% \makeautorefname{notn}{Notation}
+% \makeautorefname{notns}{Notations}
+\makeautorefname{rem}{Remark}%
+\makeautorefname{quest}{Question}%
+\makeautorefname{exmp}{Example}%
+% \makeautorefname{ax}{Axiom}%
+\makeautorefname{claim}{Claim}%
+% \makeautorefname{ass}{Assumption}%
+% \makeautorefname{asss}{Assumptions}%
+% \makeautorefname{con}{Construction}%
+% \makeautorefname{prob}{Problem}%
+\makeautorefname{warn}{Warning}%
+\makeautorefname{obs}{Observation}%
+% \makeautorefname{conv}{Convention}%
+%
+%                  *** End of hyperref stuff ***
+
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{cor}{Corollary}[section]
+\newtheorem{prop}{Proposition}[section]
+\newtheorem{lem}{Lemma}[section]
+\newtheorem{prob}{Problem}[section]
+\newtheorem{conj}{Conjecture}[section]
+\newtheorem{claim}{Claim}[section]
+%\newtheorem{ass}{Assumption}[section]
+%\newtheorem{asses}{Assumptions}[section]
+
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}[section]
+% \newtheorem{ass}{Assumption}[section]
+% \newtheorem{asss}{Assumptions}[section]
+% \newtheorem{ax}{Axiom}[section]
+% \newtheorem{con}{Construction}[section]
+\newtheorem{exmp}{Example}[section]
+% \newtheorem{notn}{Notation}[section]
+\newtheorem{notns}{Notations}[section]
+\newtheorem{pro}{Property}[section]
+\newtheorem{quest}{Question}[section]
+\newtheorem{rem}{Remark}[section]
+\newtheorem{warn}{Warning}[section]
+% \newtheorem{sch}{Scholium}[section]
+\newtheorem{obs}{Observation}[section]
+% \newtheorem{conv}{Convention}[section]
+
+\newtheorem{exercise}{Exercise}[subsection]
+% \newtheorem{myexercise}{Exercise}[subsection]
+%
+% \newenvironment{exercise}
+%   {\begin{myexercise}}
+%   {\par\vspace{-.5em}\noindent\hrulefill\vspace{.5em}\end{myexercise}}
+
+%%%% hack to get fullref working correctly
+\makeatletter
+\let\c@obs=\c@thm
+\let\c@cor=\c@thm
+\let\c@prop=\c@thm
+\let\c@lem=\c@thm
+\let\c@prob=\c@thm
+\let\c@con=\c@thm
+\let\c@conj=\c@thm
+\let\c@defn=\c@thm
+\let\c@notn=\c@thm
+\let\c@notns=\c@thm
+\let\c@exmp=\c@thm
+\let\c@ax=\c@thm
+\let\c@pro=\c@thm
+\let\c@ass=\c@thm
+\let\c@warn=\c@thm
+\let\c@rem=\c@thm
+\let\c@sch=\c@thm
+\let\c@hy=\c@thm
+\let\c@equation\c@thm
+\numberwithin{equation}{section}
+\makeatother
